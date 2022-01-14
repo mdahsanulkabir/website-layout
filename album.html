@@ -17,6 +17,7 @@
             border-radius: 15px;
             position: relative;
             margin: 15px;
+            overflow: hidden;
         }
         .photo {
             height: 200px;
@@ -45,6 +46,11 @@
             border-radius: 15px;
         }
         
+        .photo-frame:hover .photo {
+            transform: scale(1.2);
+            
+            transition: transform  1s;
+        }
     </style>
 </head>
 <body>
